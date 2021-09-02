@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:focus{
+    outline: none;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.header_area {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    text-transform: capitalize;
+    z-index: 1000;
+}
+
+.header_area .main-menu .navbar .navbar-brand {
+    color: #525FFB;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+    text-transform: capitalize;
+    padding: 10px 20px;
+    color: #525FFB;
+    opacity: 1;
+}
+
+.header_area .main-menu .navbar-nav .nav-item {
+    position: relative;
+    border: 1px solid #525FFB;
+    border-radius: 20px;
+}
+
+.tog-line {
+    border: 1px solid #525FFB;
+    margin: 5px;
+}
+
+.navbar-toggler[aria-expanded="true"] div {
+    transform: rotate(0deg);
+    transition: all ease-in-out 0.25s;
+}
+
+.navbar-toggler[aria-expanded="false"] div {
+    transform: rotate(-90deg);
+    transition: all ease-in-out 0.25s;
+}
+
+#navbarSupportedContent {
+    text-align: end;
+}
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0;
+    z-index: 999;
+    transition: background 1s ease;
+    padding: 0 5%;
+}
+
+main {
+    background-image: url(../img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .section {
+    height: 100vh;
+    padding: 5%;
+}
+
+main .section div {
+    height: inherit;
+    padding-top: 100px;
+}
+
+main .section div h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+main .section div p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #B1AAAA;
+}
+
+form input {
+    height: 70px;
+    width: 400px;
+    border-radius: 40px;
+    border: 1px solid #B1AAAA;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+form a {
+    display: inline-block;
+    background-color: #525FFB;
+    border-radius: 40px;
+    color: #fff;
+    padding: 23px 50px;
+    margin-left: auto;
+}
+
+.colli {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    height: 426px !important;
+    width: 497px;
+}
+
+.second {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    height: 100vh;
+}
+
+.second .land {
+    margin-top: 50px;
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.second .land .land-1 {
+    background-color: #525FFB;
+    color: white;
+    margin-top: 2%;
+}
+
+.second .land .land-2 {
+    background-color: #E9F0FF;
+    margin-top: 10%;
+}
+
+.second .land .land-3 {
+    background-color: #FFE7AA;
+    margin-top: 5%;
+}
+
+
+.second .land .card {
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.second .land .card h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.second .land .card span {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.third {
+    margin-top: 10%;
+    height: 60vh;
+}
+
+.third h1 {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.third span {
+    font-size: 18px;
+}
+
+.third a {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #525FFB;
+    color: white;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.forth {
+    height: 70vh;
+    margin-top: 30vh;
+}
+
+.forth h1 {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.forth span {
+    font-size: 18px;
+}
+
+.fifth{
+    height: 80vh;
+    position: relative;
+}
+
+.fifth h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.pics-1 {
+    position: relative;
+}
+
+.pic-1 {
+    position: absolute;
+    width: 100px;
+    left: 70px;
+}
+
+.pic-2 {
+    position: absolute;
+    left: 200px;
+    top: 180px;
+    width: 50px;
+}
+
+.pic-3 {
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    width: 40px;
+}
+
+.pic-4 {
+    position: absolute;
+    width: 80px;
+    right: 70px;
+}
+
+.pic-5 {
+    position: absolute;
+    right: 200px;
+    top: 120px;
+    width: 50px;
+}
+
+.pic-6 {
+    position: absolute;
+    right: 100px;
+    top: 300px;
+    width: 80px;
+}
+
+.central{
+    top: 160px;
+    left: 32%;
+    position: absolute;
+}
+
+.central h1{
+    font-size: 100px;
+    color: #525FFB;
+}
+
+footer{
+    height: fit-content;
+    padding: 40px 0
+}
+
+footer section h1{
+    font-weight: 900;
+}
+
+footer section p{
+font-size: 20px;
+margin-bottom: 40px;
+}

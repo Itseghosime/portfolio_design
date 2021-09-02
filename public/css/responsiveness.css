@@ -1,0 +1,18 @@
+@media screen and (max-width: 1300px) {
+    main .section div h1 {
+        font-size: 50px;
+    }
+
+    main .section div p {
+        font-size: 18px;
+    }
+
+    form input {
+        height: 50px;
+        width: 350px;
+    }
+
+    form a {
+        padding: 13px 25px;
+    }
+}
